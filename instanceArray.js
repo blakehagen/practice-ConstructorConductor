@@ -47,24 +47,21 @@ console.log(lenny);
 
   //code here
 
-  var blake = new User("Blake", "bmh@gm.com", "code");
+var blake = new User("Blake", "bmh@gm.com", "code");
 
-  users.push(blake);
+users.push(blake);
 
 console.log('All my users names are ');
 //Now loop through your users Array and console.log every users name. 
 
   //code here
 
+for (var i = 0; i < users.length; i++) {
+  console.log(users[i].name);
+};
 
 
 
 
 
 
-
-
-
-
-
-  
