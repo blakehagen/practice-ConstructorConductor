@@ -3,3 +3,18 @@
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
   
   //code here
+
+var reverse = function(str) {
+	var arr = [];
+	arr = str.split('');
+	arr.reverse();
+	var newStr = arr.join('')
+	return newStr;
+};
+
+
+
+
+String.prototype.reverse = function(str) {
+	return str.split(''), reverse(), join('');
+};
